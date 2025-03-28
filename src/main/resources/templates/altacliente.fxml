@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="altaPane" prefHeight="471.0" prefWidth="734.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gimnasio.gimnasiopelayo.controlador.AltaClienteController">
+    <children>
+        <Label layoutX="76.0" layoutY="39.0" text="Nombre" />
+        <Label layoutX="73.0" layoutY="88.0" text="Apellidos" />
+        <TextField fx:id="nombreTextField" layoutX="175.0" layoutY="35.0" />
+        <TextField fx:id="apellidosTextField" layoutX="175.0" layoutY="84.0" />
+        <Label layoutX="73.0" layoutY="142.0" text="DNI" />
+        <TextField fx:id="dniTextField" layoutX="175.0" layoutY="138.0" />
+        <Label layoutX="71.0" layoutY="228.0" text="Tipo" />
+        <RadioButton fx:id="clasicoRadioButton" layoutX="173.0" layoutY="228.0" mnemonicParsing="false" text="Clásico" />
+        <RadioButton fx:id="maquinaRadioButton" layoutX="169.0" layoutY="258.0" mnemonicParsing="false" text="Máquina" />
+        <RadioButton fx:id="winsorRadioButton" layoutX="171.0" layoutY="288.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="63.0" text="Winsor" />
+        <Label layoutX="72.0" layoutY="329.0" text="Sesiones" />
+        <Spinner fx:id="sesionesSpinner" layoutX="163.0" layoutY="325.0" prefHeight="26.0" prefWidth="81.0" />
+        <Label layoutX="269.0" layoutY="329.0" text="dias" />
+        <Label layoutX="71.0" layoutY="372.0" text="Fecha de alta" />
+        <DatePicker fx:id="altaDatePicker" layoutX="162.0" layoutY="368.0" />
+        <Label layoutX="420.0" layoutY="39.0" text="Fecha de Nacimiento" />
+        <Label layoutX="423.0" layoutY="88.0" text="Peso" />
+        <Slider fx:id="pesoSlider" layoutX="545.0" layoutY="89.0" />
+        <Label layoutX="420.0" layoutY="142.0" text="Altura" />
+        <Spinner fx:id="alturaSpinner" layoutX="545.0" layoutY="137.0" prefHeight="26.0" prefWidth="101.0" />
+        <Label layoutX="663.0" layoutY="142.0" text="centímetros" />
+        <Button fx:id="alta" layoutX="291.0" layoutY="418.0" mnemonicParsing="false" onAction="#btnalta" prefHeight="26.0" prefWidth="91.0" text="Alta" />
+        <Button fx:id="reset" layoutX="430.0" layoutY="418.0" mnemonicParsing="false" onAction="#btnreset" prefHeight="26.0" prefWidth="91.0" text="Reset" />
+        <DatePicker fx:id="nacimientoDatePicker" layoutX="545.0" layoutY="35.0" />
+        <Label layoutX="69.0" layoutY="188.0" prefHeight="18.0" prefWidth="32.0" text="Email" />
+        <TextField fx:id="emailTextField" layoutX="175.0" layoutY="185.0" />
+    </children>
+</AnchorPane>
