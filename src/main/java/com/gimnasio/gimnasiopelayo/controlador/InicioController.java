@@ -38,8 +38,8 @@ public class InicioController {
         FXMLLoader loader = new FXMLLoader();
         loader.setLocation(getClass().getResource("/templates/iniciosesion.fxml"));
         loader.setControllerFactory(applicationContext::getBean);
-        AnchorPane altaPane = loader.load();
-        PanelContenido.getChildren().setAll(altaPane);
+        AnchorPane iniciosesionPane = loader.load();
+        PanelContenido.getChildren().setAll(iniciosesionPane);
     }
 }
 

@@ -3,7 +3,9 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane fx:id="altaPane" prefHeight="471.0" prefWidth="734.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gimnasio.gimnasiopelayo.controlador.AltaClienteController">
+<AnchorPane fx:id="altaPane" prefHeight="471.0" prefWidth="734.0" xmlns="http://javafx.com/javafx/17.0.2-ea"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.gimnasio.gimnasiopelayo.controlador.AltaClienteController">
     <children>
         <Label layoutX="76.0" layoutY="39.0" text="Nombre" />
         <Label layoutX="73.0" layoutY="88.0" text="Apellidos" />
@@ -27,9 +29,11 @@
         <Spinner fx:id="alturaSpinner" layoutX="545.0" layoutY="137.0" prefHeight="26.0" prefWidth="101.0" />
         <Label layoutX="663.0" layoutY="142.0" text="centímetros" />
         <Button fx:id="alta" layoutX="291.0" layoutY="418.0" mnemonicParsing="false" onAction="#btnalta" prefHeight="26.0" prefWidth="91.0" text="Alta" />
-        <Button fx:id="reset" layoutX="430.0" layoutY="418.0" mnemonicParsing="false" onAction="#btnreset" prefHeight="26.0" prefWidth="91.0" text="Reset" />
+        <Button fx:id="reset" layoutX="430.0" layoutY="192.0" mnemonicParsing="false" onAction="#btnreset" prefHeight="194.0" prefWidth="257.0" text="Reset" />
         <DatePicker fx:id="nacimientoDatePicker" layoutX="545.0" layoutY="35.0" />
         <Label layoutX="69.0" layoutY="188.0" prefHeight="18.0" prefWidth="32.0" text="Email" />
         <TextField fx:id="emailTextField" layoutX="175.0" layoutY="185.0" />
+      <Label layoutX="395.0" layoutY="423.0" text="Ya tienes cuenta?" />
+      <Hyperlink layoutX="495.0" layoutY="420.0" prefHeight="24.0" prefWidth="82.0" text="Iniciar Sesion" />
     </children>
 </AnchorPane>
