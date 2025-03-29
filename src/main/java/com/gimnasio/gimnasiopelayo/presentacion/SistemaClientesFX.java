@@ -24,7 +24,7 @@ public class SistemaClientesFX extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader loader = new FXMLLoader(GimnasiopelayoApplication.class.getResource("/templates/menuprincipal.fxml"));
+        FXMLLoader loader = new FXMLLoader(GimnasiopelayoApplication.class.getResource("/templates/inicio.fxml"));
         loader.setControllerFactory((applicationContext::getBean));
         Scene escena = new Scene(loader.load());
         stage.setTitle("Gimnasio Pelayo");

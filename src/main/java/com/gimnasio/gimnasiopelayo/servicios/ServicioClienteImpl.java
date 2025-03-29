@@ -3,10 +3,11 @@ package com.gimnasio.gimnasiopelayo.servicios;
 import com.gimnasio.gimnasiopelayo.modelo.Cliente;
 import com.gimnasio.gimnasiopelayo.repositorio.ClienteRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.NoSuchElementException;
-
+@Service
 public class ServicioClienteImpl implements ServicioCliente{
 
     @Autowired
